@@ -16,7 +16,10 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.listed.app"
+      "bundleIdentifier": "com.listed.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -28,13 +31,11 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      [
-        "expo-font",
-        {
-          "fonts": ["./assets/fonts/Caveat-Regular.ttf"]
-        }
-      ]
-    ]
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "9cd877db-5965-4d7c-9f73-a791ff520e5a"
+      }
+    }
   }
 }
