@@ -1,0 +1,56 @@
+// Color theme for Listed mobile app
+export const Colors = {
+  light: {
+    background: '#f0f8ff',
+    surface: '#ffffff',
+    surfaceSecondary: 'rgba(255, 255, 255, 0.6)',
+    surfaceBlue: 'rgba(240, 248, 255, 0.8)',
+    primary: '#3b82f6',
+    secondary: '#22d3ee',
+    accent: '#8b5cf6',
+    text: '#0a1929',
+    textSecondary: '#6b7280',
+    textMuted: '#9ca3af',
+    border: '#e5e7eb',
+    success: '#10b981',
+    warning: '#f59e0b',
+    error: '#ef4444',
+  },
+  dark: {
+    background: '#0a1929',
+    surface: '#172a3a',
+    surfaceSecondary: '#2a4055',
+    surfaceBlue: '#172a3a',
+    primary: '#60a5fa',
+    secondary: '#67e8f9',
+    accent: '#a78bfa',
+    text: '#d8ebff',
+    textSecondary: '#a0d0ff',
+    textMuted: '#7cb9e8',
+    border: '#2a4055',
+    success: '#34d399',
+    warning: '#fbbf24',
+    error: '#f87171',
+  },
+};
+
+export const TagColors = {
+  light: {
+    red: '#fecaca',
+    green: '#bbf7d0',
+    yellow: '#fef3c7',
+    pink: '#fbcfe8',
+    orange: '#fed7aa',
+    purple: '#e9d5ff',
+    blue: '#bfdbfe',
+  },
+  dark: {
+    red: '#6b1212',
+    green: '#0d462b',
+    yellow: '#614700',
+    pink: '#641d5e',
+    orange: '#6d2e00',
+    purple: '#360b5e',
+    blue: '#0a3b66',
+  },
+};
